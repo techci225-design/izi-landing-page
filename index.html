@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LivrExpress - Livraison rapide à Babi</title>
+    <meta name="description" content="LivrExpress vous offre un service de livraison rapide et sécurisé partout à Abidjan (Babi).">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Ionicons for modern icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Livr<span>Express</span></a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#comment-ca-marche">Comment ça marche</a></li>
+                    <li><a href="#tarifs">Tarifs</a></li>
+                    <li><a href="#temoignages">Témoignages</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn-primary">Nous contacter</a>
+            <div class="mobile-menu-icon" id="mobile-menu-btn">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text fade-in">
+                <h1>La livraison ultra-rapide à <span>Babi</span></h1>
+                <p>Faites livrer vos colis en toute sécurité et en un temps record partout à Abidjan. Simple, efficace et abordable.</p>
+                <div class="hero-buttons">
+                    <a href="#tarifs" class="btn-primary">Commander une course</a>
+                    <a href="#comment-ca-marche" class="btn-secondary">En savoir plus</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in-right">
+                <!-- Dynamic shape -->
+                <div class="blob-container">
+                    <div class="blob">
+                       <ion-icon name="rocket-outline" class="hero-icon"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wave-bottom">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C59.71,118.08,130.83,115.8,188.47,100.86,233.15,89.33,278.43,73.5,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Comment ça marche -->
+    <section id="comment-ca-marche" class="section bg-light">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Comment ça <span>marche</span> ?</h2>
+                <p>Expédiez vos colis en 3 étapes simples.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card fade-up">
+                    <div class="icon-box">
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                    </div>
+                    <h3>1. Commandez</h3>
+                    <p>Entrez les détails de votre livraison sur notre plateforme ou via WhatsApp.</p>
+                </div>
+                <div class="step-card fade-up delay-1">
+                    <div class="icon-box">
+                        <ion-icon name="cube-outline"></ion-icon>
+                    </div>
+                    <h3>2. Récupération</h3>
+                    <p>Un livreur partenaire de LivrExpress récupère votre colis à l'adresse indiquée.</p>
+                </div>
+                <div class="step-card fade-up delay-2">
+                    <div class="icon-box">
+                        <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                    </div>
+                    <h3>3. Livraison</h3>
+                    <p>Votre colis est livré à destination en un temps record et en toute sécurité.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tarifs -->
+    <section id="tarifs" class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Nos <span>Tarifs</span></h2>
+                <p>Des offres adaptées à tous vos besoins de livraison à Abidjan.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card fade-up">
+                    <div class="pricing-header">
+                        <h3>Standard</h3>
+                        <div class="price">1000 <span>FCFA</span></div>
+                        <p>Livraison en 24h</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><ion-icon name="checkmark-outline"></ion-icon> Colis non urgents</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon> Suivi basique</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon> Assurance standard</li>
+                    </ul>
+                    <a href="#" class="btn-outline">Choisir</a>
+                </div>
+                
+                <div class="pricing-card popular fade-up delay-1">
+                    <div class="badge">Le plus choisi</div>
+                    <div class="pricing-header">
+                        <h3>Express</h3>
+                        <div class="price">2000 <span>FCFA</span></div>
+                        <p>Livraison le jour même</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><ion-icon name="checkmark-outline"></ion-icon> Ramassage en 2h</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon> Suivi en temps réel</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon> Assurance incluse</li>
+                    </ul>
+                    <a href="#" class="btn-primary">Choisir</a>
+                </div>
+
+                <div class="pricing-card fade-up delay-2">
+                    <div class="pricing-header">
+                        <h3>VIP</h3>
+                        <div class="price">5000 <span>FCFA</span></div>
+                        <p>Livraison immédiate</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><ion-icon name="checkmark-outline"></ion-icon> Moins de 2 heures</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon> Priorité absolue</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon> Remise en main propre</li>
+                    </ul>
+                    <a href="#" class="btn-outline">Choisir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section id="temoignages" class="section bg-light">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Ce qu'ils <span>disent</span> de nous</h2>
+                <p>La satisfaction de nos clients est notre priorité absolue.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-up">
+                    <div class="quote-icon"><ion-icon name="chatbubbles-outline"></ion-icon></div>
+                    <p class="review">"Service impeccable, mon colis est arrivé en moins d'une heure ! Le livreur était très courtois. Je recommande vivement."</p>
+                    <div class="client-info">
+                        <div class="avatar">A</div>
+                        <div>
+                            <h4>Awa D.</h4>
+                            <span>Commerçante</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-up delay-1">
+                    <div class="quote-icon"><ion-icon name="chatbubbles-outline"></ion-icon></div>
+                    <p class="review">"LivrExpress m'a sauvé la mise pour une urgence au Plateau. L'application est simple et le suivi est rassurant."</p>
+                    <div class="client-info">
+                        <div class="avatar">M</div>
+                        <div>
+                            <h4>Marc Y.</h4>
+                            <span>Consultant</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-up delay-2">
+                    <div class="quote-icon"><ion-icon name="chatbubbles-outline"></ion-icon></div>
+                    <p class="review">"Très professionnels et les tarifs sont vraiment abordables pour la qualité du service. C'est mon livreur attitré désormais."</p>
+                    <div class="client-info">
+                        <div class="avatar">S</div>
+                        <div>
+                            <h4>Sarah K.</h4>
+                            <span>Étudiante</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-col brand-col">
+                <a href="#" class="logo footer-logo">Livr<span>Express</span></a>
+                <p>La référence de la livraison rapide, sûre et accessible à Babi. Vos colis entre de bonnes mains.</p>
+                <div class="social-links">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Liens Utiles</h3>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#comment-ca-marche">Comment ça marche</a></li>
+                    <li><a href="#tarifs">Nos Tarifs</a></li>
+                    <li><a href="#temoignages">Témoignages</a></li>
+                </ul>
+            </div>
+            <div class="footer-col contact-col">
+                <h3>Nous Contacter</h3>
+                <ul>
+                    <li><ion-icon name="location-outline"></ion-icon> Cocody, Abidjan, Côte d'Ivoire</li>
+                    <li><ion-icon name="call-outline"></ion-icon> +225 00 00 00 00 00</li>
+                    <li><ion-icon name="mail-outline"></ion-icon> contact@livrexpress.ci</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 LivrExpress. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2>Nous Contacter</h2>
+            <p>Remplissez ce formulaire et nous vous répondrons dans les plus brefs délais.</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Numéro de téléphone</label>
+                    <input type="tel" id="phone" placeholder="Ex: 0102030405" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message ou détails de la course</label>
+                    <textarea id="message" rows="4" placeholder="Bonjour, je souhaite..." required></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="width: 100%;">Envoyer la demande</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
